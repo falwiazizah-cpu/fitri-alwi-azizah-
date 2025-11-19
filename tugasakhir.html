@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbie Love Movies</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #ffe6f2;
+      font-family: 'Poppins', sans-serif;
+    }
+    .hero {
+      background: linear-gradient(rgba(255, 105, 180, 0.5), rgba(255, 105, 180, 0.7)),
+                  url("https://i.imgur.com/gcEmJad.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 85vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: 700;
+    }
+    .section-title {
+      font-weight: 700;
+      color: #ff1493;
+    }
+    .movie-card {
+      border-radius: 20px;
+      background: white;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .movie-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+    }
+    footer {
+      background: #ff99cc;
+      color: white;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div>
+      <h1>Barbie Romance Movies</h1>
+      <p class="lead fs-4">6 Film Barbie Paling Romantis & Penuh Cinta</p>
+      <a href="#films" class="btn btn-light btn-lg fw-bold" style="color:#ff1493;">Lihat Film</a>
+    </div>
+  </div>
+
+  <!-- FILM SECTION -->
+  <section class="container py-5" id="films">
+    <h2 class="text-center section-title mb-4">6 Film Barbie Bertema Cinta</h2>
+    <p class="text-center mb-5">
+      Barbie memiliki banyak film yang mengangkat kisah cinta, persahabatan,  
+      dan perjalanan penuh keajaiban. Berikut 6 film terindah bertema cinta:
+    </p>
+
+    <div class="row g-4">
+
+      <!-- Film 1 -->
+      <div class="col-md-4">
+        <div class="movie-card p-3">
+          <img src="bar1.jpg" class="img-fluid rounded mb-3">
+          <h4>Barbie as The Princess and the Pauper</h4>
+          <p>Kisah cinta klasik penuh musik, penyamaran, dan ketulusan antara sang putri dan pangeran.</p>
+        </div>
+      </div>
+
+      <!-- Film 2 -->
+      <div class="col-md-4">
+        <div class="movie-card p-3">
+          <img src="bar3.jpg" class="img-fluid rounded mb-3">
+          <h4>Barbie & The Diamond Castle</h4>
+          <p>Film romantis tentang persahabatan dan cinta yang menyatukan dua sahabat dalam petualangan ajaib.</p>
+        </div>
+      </div>
+
+      <!-- Film 3 -->
+      <div class="col-md-4">
+        <div class="movie-card p-3">
+          <img src="bar2.jpg" class="img-fluid rounded mb-3">
+          <h4>Barbie in The Nutcracker</h4>
+          <p>Kisah cinta antara Clara dan Nutcracker yang dipenuhi keajaiban dan keberanian.</p>
+        </div>
+      </div>
+
+      <!-- Film 4 -->
+      <div class="col-md-4">
+        <div class="movie-card p-3">
+          <img src="bar4.jpg" class="img-fluid rounded mb-3">
+          <h4>Barbie as Rapunzel</h4>
+          <p>Cerita romantis Rapunzel dan pangeran yang berjuang melawan kejahatan demi cinta.</p>
+        </div>
+      </div>
+
+      <!-- Film 5 -->
+      <div class="col-md-4">
+        <div class="movie-card p-3">
+          <img src="bar5.jpg" class="img-fluid rounded mb-3">
+          <h4>Barbie of Swan Lake</h4>
+          <p>Petualangan cinta magis Odette yang berubah menjadi angsa dan menemukan cinta sejatinya.</p>
+        </div>
+      </div>
+
+      <!-- Film 6 -->
+      <div class="col-md-4">
+        <div class="movie-card p-3">
+          <img src="bar6.jpg" class="img-fluid rounded mb-3">
+          <h4>Barbie in A Christmas Carol</h4>
+          <p>Walau bukan murni romance, film ini penuh kehangatan cinta, keluarga, dan kebaikan hati.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="py-5 text-center" style="background:#ffb3d9;">
+    <h2 class="section-title">Kata-Kata Cinta Barbie</h2>
+    <p class="fs-4 mt-3">
+      <em>"Cinta bukan hanya perasaan,tetapi pilihan untuk saling menjaga selamanya"</em>
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center">
+    <p class="mb-0">© 2025 Barbie Romance Movies • Dibuat dengan cinta 💖</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
